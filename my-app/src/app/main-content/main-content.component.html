@@ -1,0 +1,13 @@
+<main>
+    <section class="news">
+        <h2>Últimas Noticias</h2>
+        <article class="news-item">
+            <h3>{{ news.title }}</h3>
+            <img [src]="news.imageUrl" [alt]="news.imageAlt" class="news-image">
+            <p>
+                {{ news.summary }}
+                <a [href]="news.detailLink">{{ news.detailLinkText }}</a>.
+            </p>
+        </article>
+    </section>
+</main>

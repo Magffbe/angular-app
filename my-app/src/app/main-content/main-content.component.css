@@ -1,0 +1,37 @@
+main {
+    padding: 20px;
+    background-color: #ffffff;
+    flex-grow: 1;
+    width: 100%;
+  }
+  
+  .news {
+    margin-top: 20px;
+  }
+  
+  .news-item {
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .news-item h3 {
+    margin-top: 0;
+  }
+  
+  .news-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  .news-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .news-item a:hover {
+    text-decoration: underline;
+  }
+  
